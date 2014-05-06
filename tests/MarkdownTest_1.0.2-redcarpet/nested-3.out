@@ -1,0 +1,12 @@
+<p>This was an error in Markdown 1.0.1:</p>
+
+<ul>
+<li><p>this</p>
+
+
+<ul>
+<li>sub</li>
+</ul>
+
+<p>that</p></li>
+</ul>

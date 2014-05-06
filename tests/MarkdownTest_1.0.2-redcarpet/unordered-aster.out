@@ -1,0 +1,17 @@
+<h2>Unordered</h2>
+
+<p>Asterisks tight:</p>
+
+<ul>
+<li>asterisk 1</li>
+<li>asterisk 2</li>
+<li>asterisk 3</li>
+</ul>
+
+<p>Asterisks loose:</p>
+
+<ul>
+<li><p>asterisk 1</p></li>
+<li><p>asterisk 2</p></li>
+<li><p>asterisk 3</p></li>
+</ul>

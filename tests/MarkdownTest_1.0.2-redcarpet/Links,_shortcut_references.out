@@ -1,0 +1,10 @@
+<p>This is the <a href="/simple">simple case</a>.</p>
+
+<pre><code>This one has a [line
+break].   TODO
+
+This one has a [line 
+break] with a line-ending space.   TODO
+</code></pre>
+
+<p><a href="/that">this</a> and the <a href="/other">other</a></p>
