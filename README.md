@@ -43,7 +43,7 @@ Future directions
 **Use a *scanner less* gramar**: unfortunately almost at the end of my work I realized that the lexer was not doing that much so a *scanner less* grammar could be probably adopted easily. In addition the semantic predicates I wrote all of them act inspecting the token stream. In a *scanner less* scenario should be easier to inspect a `CharStream`.
 
 **Parser modularization**: in case no global solution exists to build a real parser for the whole language, one could try to
-forst build a parser for the block structure of Markdown, for example identifying first lists, verbatim, heading..., that parse each block content to parser emph, strong, links and all the other span elements.  
+first build a parser for the block structure of Markdown, for example identifying first lists, verbatim, heading..., than parse each block content to parser emph, strong, links and all the other span elements.  
 I already used this approach for blockquotes: here on each line the starting tokens `> ` are removed and the result is passed to
 an new instance of the parser. Probably some fixes are required in case of presence of *reference links* into the blockquote.
 
